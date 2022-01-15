@@ -1,0 +1,42 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+/* font-family: 'Twinkle Star', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+/* font-family: 'Gloria Hallelujah', cursive; */
+
+:root {
+    /* --skyblue: #7dbdf2; */
+    --white: #ffffff;
+    --black: #000000;
+}
+
+h1 {
+    font-family: 'Twinkle Star', cursive;
+    color: var(--white);
+}
+
+h2, h3, h4, p, a, label, .submit {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    height: 125px;
+}
+body {
+    height: 100vh;
+    /* background-color: #7dbdf2; */
+}
+
+/* ---------- HEADER ---------- */
+.navbar-nav {
+   position: relative;
+   left: 400px;
+}
+.navbar-nav {
+    text-align: center;
+}
