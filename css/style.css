@@ -1,4 +1,4 @@
-/* GENERAL */
+/* ---------- GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -22,17 +22,12 @@ h2, h3, h4, p, a, label, .submit {
     text-decoration: none;
 }
 
-/* BODY */
+/* ---------- BODY */
 body {
-    display: grid;
-    grid-template-areas:
-        "header header header";
-    
     background-color: var(--main-color);
 }
-/* header */
+/* -----  header */
 header {
-    grid-area: header;
     text-align: center;
 }
 header>img {
@@ -46,22 +41,34 @@ header>h1 {
 header>nav>a {
     margin: 0 15px;
 }
+/* ----- portfolio */
+#portfolio {
+    display: flex;
+    overflow: scroll;
+    text-align: center;
+    margin: 30px auto;
+}
+#portfolio>img {
+    display: inline;
+    height: 427.92px;
+    width: 427.92px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
 
 
 
 /* MEDIA SCREEN */
 @media screen and (min-width: 1000px) {
-    /* GENERAL */
+    /* ---------- GENERAL */
     h1 {
         font-size: 100px;
     }
-    /* header */
+    /* ----- header */
     header>img {
         height: 148.5px;
         width: 105px;
-    }
-    header>nav {
-        position: fixed;
     }
     header>nav>a {
         margin: 0;
@@ -73,5 +80,9 @@ header>nav>a {
     header>nav>a:hover {
         background-color: var(--text-color);
         color: var(--main-color);
+    }
+    /* ---portfolio */
+    #portfolio {
+        margin-top: 50px;
     }
 }
