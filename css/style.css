@@ -36,9 +36,11 @@ header>img {
     width: 70px;
 }
 header>h1 {
+    font-size: 40px;
     display: inline;
 }
 header>nav>a {
+    font-size: 26px;
     margin: 0 15px;
 }
 /* ----- portfolio */
@@ -56,7 +58,21 @@ header>nav>a {
     border-radius: 15px;
 }
 
-
+/* ----- books */
+#books {
+    position: relative;
+    margin: 30px auto;
+}
+#books>h2 {
+    font-size: 26px;
+    margin: 20px;
+}
+#books>a {
+}
+#books img {
+    height: 288px;
+    width: 288px;
+}
 
 
 /* MEDIA SCREEN */
@@ -81,8 +97,16 @@ header>nav>a {
         background-color: var(--text-color);
         color: var(--main-color);
     }
-    /* ---portfolio */
+    /* --- portfolio */
     #portfolio {
         margin-top: 50px;
     }
+    /* --- books */
+    #books>img {
+        display: inline;
+        height: 400px;
+        width: 400px;
+        margin: 0;
+    }
+
 }
