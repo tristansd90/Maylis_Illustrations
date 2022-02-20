@@ -4,13 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: var(--text-color);
 }
-
 :root {
     --main-color: #7dbdf2;
     --text-color: #ffffff;
 }
-
 h1 {
     font-family: 'Twinkle Star', cursive;
     color: var(--text-color);
@@ -21,7 +20,6 @@ h2, h3, h4, p, a, label, .submit {
     color: var(--text-color);
     text-decoration: none;
 }
-
 /* ---------- BODY */
 body {
     background-color: var(--main-color);
@@ -57,7 +55,6 @@ header>nav>a {
     margin: 10px;
     border-radius: 15px;
 }
-
 /* ----- books */
 #books {
     position: relative;
@@ -67,7 +64,6 @@ header>nav>a {
     font-size: 26px;
     margin: 20px;
 }
-
 #books article a img {
     /* position: relative; */
     display: block;
@@ -87,7 +83,24 @@ header>nav>a {
     color: var(--text-color);
     border-radius: 50px;
 }
-
+/* ----- interview */
+#interview h2 {
+    font-size: 26px;
+    margin: 20px;
+}
+#interview img {
+    display: none;
+}
+#interview p {
+    height: 300px;
+    width: 490px;
+    overflow: auto;
+    padding-left: 15px;
+    text-align: left;
+}
+#interview p strong {
+    color: yellow
+}
 @media screen and (min-width: 768px) {
     header>h1 {
         font-size: 60px;
