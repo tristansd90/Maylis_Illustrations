@@ -6,12 +6,16 @@
     text-decoration: none;
     color: var(--text-color);
 }
+@font-face {
+    font-family: "adelia" ;
+    src: url(../font/adelia.ttf);
+}
 :root {
     --main-color: #7dbdf2;
     --text-color: #ffffff;
 }
 h1 {
-    font-family: 'Twinkle Star', cursive;
+   font-family: "adelia";
     color: var(--text-color);
 }
 h2, h3, h4, p, a, label, .submit {
@@ -26,15 +30,17 @@ body {
 }
 /* -----  header */
 header {
+    position: relative;
+    top: 40px;
     text-align: center;
 }
 header>img {
-    display: inline;
+    display: none;
     height: 99px;
     width: 70px;
 }
 header>h1 {
-    font-size: 40px;
+    font-size: 30px;
     display: inline;
 }
 header>nav>a {
@@ -100,6 +106,19 @@ header>nav>a {
 }
 #interview p strong {
     color: yellow
+}
+
+/* FOOTER */
+footer {
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    border-top: solid 1px var(--text-color);
+
 }
 @media screen and (min-width: 768px) {
     header>h1 {
