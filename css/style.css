@@ -75,9 +75,9 @@ header nav a {
     height: 288px;
     width: 288px;
 }
-#book2 {
+#books article a {
     height: 288px;
-    width: 288px;
+    width: 270px;
 }
 #books article p {
     text-align: center;
@@ -87,7 +87,6 @@ header nav a {
     border-radius: 50px;
 }
 /* ----- interview */
-
 #interview img {
     display: none;
 }
@@ -101,7 +100,6 @@ header nav a {
 #interview p strong {
     color: yellow
 }
-
 /* FOOTER */
 footer {
     position: relative;
