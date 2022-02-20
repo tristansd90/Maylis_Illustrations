@@ -18,7 +18,11 @@ h1 {
    font-family: "adelia";
     color: var(--text-color);
 }
-h2, h3, h4, p, a, label, .submit {
+h2 {
+    font-size: 26px;
+    margin: 30px;
+}
+h2, p, a, label, .submit {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 20px;
     color: var(--text-color);
@@ -31,47 +35,41 @@ body {
 /* -----  header */
 header {
     position: relative;
-    top: 40px;
+    top: 50px;
+}
+header img {
+    display: none;
+}
+header h1 {
+    font-size: 30px;
     text-align: center;
 }
-header>img {
-    display: none;
-    height: 99px;
-    width: 70px;
+header nav {
+    text-align: center;
 }
-header>h1 {
-    font-size: 30px;
-    display: inline;
-}
-header>nav>a {
-    font-size: 26px;
-    margin: 0 15px;
+header nav a {
+    font-size: 20px;
+    margin: 0 10px;
 }
 /* ----- portfolio */
 #portfolio {
     display: flex;
     overflow: scroll;
     text-align: center;
-    margin: 30px auto;
+    margin: 100px auto;
 }
-#portfolio>img {
+#portfolio img {
     display: inline;
-    height: 427.92px;
-    width: 427.92px;
-    margin: 10px;
+    height: 350px;
+    width: 350px;
+    margin-right: 15px;
     border-radius: 15px;
 }
 /* ----- books */
 #books {
-    position: relative;
     margin: 30px auto;
 }
-#books h2 {
-    font-size: 26px;
-    margin: 20px;
-}
 #books article a img {
-    /* position: relative; */
     display: block;
     margin: auto;
     height: 288px;
@@ -82,27 +80,23 @@ header>nav>a {
     width: 288px;
 }
 #books article p {
-    position: relative;
-    top: -60px;
     text-align: center;
+    margin-top: 10px;
     /* background-color: var(--text-color); */
     color: var(--text-color);
     border-radius: 50px;
 }
 /* ----- interview */
-#interview h2 {
-    font-size: 26px;
-    margin: 20px;
-}
+
 #interview img {
     display: none;
 }
 #interview p {
     height: 300px;
-    width: 490px;
+    width: 380px;
     overflow: auto;
     padding-left: 15px;
-    text-align: left;
+    text-align: justify;
 }
 #interview p strong {
     color: yellow
@@ -152,7 +146,7 @@ footer {
     } */
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     header>h1 {
         font-size: 60px;
     }
@@ -160,4 +154,4 @@ footer {
         height: 148.5px;
         width: 105px;
     }
-}
+} */
