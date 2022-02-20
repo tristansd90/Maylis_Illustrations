@@ -63,30 +63,40 @@ header>nav>a {
     position: relative;
     margin: 30px auto;
 }
-#books>h2 {
+#books h2 {
     font-size: 26px;
     margin: 20px;
 }
-#books>a {
-}
-#books img {
+
+#books article a img {
+    /* position: relative; */
+    display: block;
+    margin: auto;
     height: 288px;
     width: 288px;
 }
+#book2 {
+    height: 288px;
+    width: 288px;
+}
+#books article p {
+    position: relative;
+    top: -60px;
+    text-align: center;
+    /* background-color: var(--text-color); */
+    color: var(--text-color);
+    border-radius: 50px;
+}
 
-
-/* MEDIA SCREEN */
-@media screen and (min-width: 1000px) {
-    /* ---------- GENERAL */
-    h1 {
-        font-size: 100px;
+@media screen and (min-width: 768px) {
+    header>h1 {
+        font-size: 60px;
     }
-    /* ----- header */
-    header>img {
+     header>img {
         height: 148.5px;
         width: 105px;
     }
-    header>nav>a {
+    /*header>nav>a {
         margin: 0;
         padding: 5px 110px;
         font-size: 30px;
@@ -96,17 +106,26 @@ header>nav>a {
     header>nav>a:hover {
         background-color: var(--text-color);
         color: var(--main-color);
-    }
+    } */
     /* --- portfolio */
-    #portfolio {
+    /* #portfolio {
         margin-top: 50px;
-    }
+    } */
     /* --- books */
-    #books>img {
+    /* #books>img {
         display: inline;
         height: 400px;
         width: 400px;
         margin: 0;
-    }
+    } */
+}
 
+@media screen and (min-width: 992px) {
+    header>h1 {
+        font-size: 60px;
+    }
+     header>img {
+        height: 148.5px;
+        width: 105px;
+    }
 }
