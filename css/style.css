@@ -124,33 +124,57 @@ footer {
 
 }
 @media screen and (min-width: 768px) {
-    header>h1 {
+    /* ----- GENERALE */
+    h2 {
+        font-size: 36px;
+    }
+    /* ----- header */
+    header h1 {
         font-size: 60px;
     }
-     header>img {
+     header img {
         height: 148.5px;
         width: 105px;
     }
-    /*header>nav>a {
+    header nav a {
         margin: 0;
-        padding: 5px 110px;
+        padding: 5px 20px;
         font-size: 30px;
         border-radius: 10px;
         transition: background-color .5s ease;
     }
-    header>nav>a:hover {
+    header nav a:hover {
         background-color: var(--text-color);
         color: var(--main-color);
-    } */
+    }
     /* --- portfolio */
-    /* #portfolio {
-        margin-top: 50px;
-    } */
+    #portfolio {
+        margin-top: 100px;
+    }
     /* --- books */
-    /* #books>img {
-        display: inline;
+    #books article {
+        display: inline-block;
+        margin: 60px;
+    }
+    #books img {
         height: 400px;
         width: 400px;
         margin: 0;
-    } */
+    }
+    /* ---- interview */
+    #interview article {
+        display: inline-flex;
+    }
+    #interview img {
+        display: inline;
+        height: 886px;
+        width:319px;
+        margin: 0 20px;
+    }
+    #interview p {
+        height: 886px;
+        width: 360px;
+        overflow: auto;
+        padding-left: 15px;
+    }
 }
