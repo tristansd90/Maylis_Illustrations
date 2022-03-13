@@ -18,12 +18,12 @@ h1 {
     color: var(--text-color);
 }
 h2 {
-    font-size: 26px;
+    font-size: 35px !important;
     margin: 30px;
 }
 h2, p, a, label, .submit {
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 20px;
+    font-size: 40px;
     color: var(--text-color);
     text-decoration: none;
 }
@@ -79,14 +79,14 @@ header nav a {
 #books article a img {
     display: block;
     margin: auto;
-    height: 288px;
-    width: 288px;
+    height: 500px;
+    width: 500px;
 }
 #books article a #book2 {
     display: block;
     margin: auto;
-    height: 288px;
-    width: 230px;
+    height: 576px;
+    width: 460px;
 }
 #books article a {
     height: 288px;
@@ -104,11 +104,13 @@ header nav a {
     display: none;
 }
 #interview p {
-    height: 300px;
-    width: 360px;
-    overflow: auto;
-    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
     text-align: justify;
+    height: 500px;
+    width: 675px;
+    overflow: auto;
+    font-size: 30px;
 }
 #interview p strong {
     color: yellow
